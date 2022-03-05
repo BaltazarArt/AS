@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_inicio"
+            android:title="Inicio"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:checked="true"/>
+
+
+        <item
+            android:id="@+id/nav_comprar"
+            android:title="Comprar"
+            android:icon="@drawable/ic_launcher_foreground"/>
+        <item android:title="Mas">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/nav_especific"
+                        android:title="Especificaciones"
+                        android:icon="@drawable/ic_launcher_foreground"/>
+                    <item
+                        android:id="@+id/nav_carrito"
+                        android:title="Carrito"
+                        android:icon="@drawable/ic_launcher_foreground"/>
+                    <item
+                        android:id="@+id/nav_pagar"
+                        android:title="Pagar"
+                        android:icon="@drawable/ic_launcher_foreground"/>
+
+                </group>
+            </menu>
+        </item>
+        <item android:title="Usuario">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/nav_iniciarsesion"
+                        android:title="Iniciar sesón"
+                        android:icon="@drawable/ic_launcher_foreground"/>
+                    <item
+                        android:id="@+id/nav_registrar"
+                        android:title="Registrarse"
+                        android:icon="@drawable/ic_launcher_foreground"/>
+
+                </group>
+            </menu>
+        </item>
+
+        <item
+            android:id="@+id/nav_contacto"
+            android:title="Contacto"
+            android:icon="@drawable/ic_launcher_foreground"/>
+
+    </group>
+
+
+</menu>
