@@ -26,7 +26,6 @@
             app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName9"
             tools:ignore="TouchTargetSizeCheck" />
 
-
         <ImageView
             android:id="@+id/imageView3"
             android:layout_width="71dp"
@@ -38,6 +37,18 @@
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@mipmap/logo" />
 
+        <com.google.android.gms.maps.MapView
+            android:id="@+id/mapView"
+            android:layout_width="311dp"
+            android:layout_height="80dp"
+            android:visibility="visible"
+            app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName9"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView5"
+            tools:visibility="visible" />
+
         <TextView
             android:id="@+id/textView8"
             android:layout_width="232dp"
@@ -46,10 +57,10 @@
             android:text="Contactanos"
             android:textColor="#000000"
             android:textSize="36sp"
-            app:layout_constraintBottom_toTopOf="@+id/imageButton6"
+            app:layout_constraintBottom_toTopOf="@+id/imageButton4"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toEndOf="@+id/imageButton4"
+            app:layout_constraintStart_toEndOf="@+id/imageView3"
             app:layout_constraintTop_toTopOf="parent" />
 
         <EditText
@@ -83,9 +94,8 @@
             android:id="@+id/imageButton4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="50dp"
             app:layout_constraintBottom_toTopOf="@+id/textView4"
-            app:layout_constraintEnd_toStartOf="@+id/textView8"
+            app:layout_constraintEnd_toStartOf="@+id/imageButton6"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView3"
@@ -97,7 +107,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:layout_constraintBottom_toTopOf="@+id/textView7"
-            app:layout_constraintEnd_toStartOf="@+id/textView5"
+            app:layout_constraintEnd_toStartOf="@+id/imageButton7"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView4"
@@ -108,11 +118,10 @@
             android:id="@+id/imageButton6"
             android:layout_width="87dp"
             android:layout_height="83dp"
-            android:layout_marginTop="20dp"
             app:layout_constraintBottom_toTopOf="@+id/textView6"
-            app:layout_constraintEnd_toStartOf="@+id/textView8"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toEndOf="@+id/textView8"
+            app:layout_constraintStart_toEndOf="@+id/imageButton4"
             app:layout_constraintTop_toBottomOf="@+id/textView8"
             app:srcCompat="@mipmap/reloj"
             tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
@@ -134,23 +143,23 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="442.000.0000"
-            android:textSize="12sp"
+            android:textSize="10sp"
             app:layout_constraintBottom_toTopOf="@+id/imageButton5"
-            app:layout_constraintEnd_toStartOf="@+id/imageButton7"
+            app:layout_constraintEnd_toStartOf="@+id/textView6"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageButton4" />
 
         <TextView
             android:id="@+id/textView5"
-            android:layout_width="129dp"
-            android:layout_height="40dp"
+            android:layout_width="125dp"
+            android:layout_height="22dp"
             android:text="Circuito Puerta del Sol, Angel Aniel 701"
-            android:textSize="12sp"
+            android:textSize="8sp"
             app:layout_constraintBottom_toTopOf="@+id/mapView"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toEndOf="@+id/imageButton5"
+            app:layout_constraintStart_toEndOf="@+id/textView7"
             app:layout_constraintTop_toBottomOf="@+id/imageButton7" />
 
         <TextView
@@ -158,11 +167,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="10:00 am to 22:00 pm"
-            android:textSize="12sp"
+            android:textSize="8sp"
             app:layout_constraintBottom_toTopOf="@+id/imageButton7"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toEndOf="@+id/imageButton4"
+            app:layout_constraintStart_toEndOf="@+id/textView4"
             app:layout_constraintTop_toBottomOf="@+id/imageButton6" />
 
         <TextView
@@ -170,7 +179,7 @@
             android:layout_width="101dp"
             android:layout_height="21dp"
             android:text="Contacto@Astros.com  ventas_astros@Astros.com"
-            android:textSize="12sp"
+            android:textSize="8sp"
             app:layout_constraintBottom_toTopOf="@+id/mapView"
             app:layout_constraintEnd_toStartOf="@+id/textView5"
             app:layout_constraintHorizontal_bias="0.5"
@@ -203,16 +212,6 @@
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
-
-        <com.google.android.gms.maps.MapView
-            android:id="@+id/mapView"
-            android:layout_width="328dp"
-            android:layout_height="133dp"
-            app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName9"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.569"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>
