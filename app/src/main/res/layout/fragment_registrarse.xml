@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    app:circularflow_defaultRadius="20dp"
     tools:context=".registrarseFragment">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -76,10 +77,9 @@
             android:textColor="#000000"
             android:textSize="16sp"
             app:backgroundTint="#00BCD4"
-            app:cornerRadius="22dp"
+            app:cornerRadius="20dp"
             app:layout_constraintBottom_toTopOf="@+id/textView10"
             app:layout_constraintEnd_toStartOf="@+id/button12"
-            app:layout_constraintHorizontal_bias="0.51"
             app:layout_constraintStart_toStartOf="@+id/button12"
             app:layout_constraintTop_toBottomOf="@+id/checkBox"
             tools:ignore="TouchTargetSizeCheck" />
