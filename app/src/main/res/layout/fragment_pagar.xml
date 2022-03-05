@@ -39,8 +39,8 @@
         android:id="@+id/textView16"
         android:layout_width="102dp"
         android:layout_height="wrap_content"
-        android:layout_x="12dp"
-        android:layout_y="77dp"
+        android:layout_x="10dp"
+        android:layout_y="79dp"
         android:background="@android:drawable/editbox_background_normal"
         android:textSize="12sp" />
 
