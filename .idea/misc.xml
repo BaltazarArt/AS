@@ -3,14 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Serafin/AndroidStudioProjects/AS/app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="..\:/Users/Serafin/AndroidStudioProjects/AS/app/src/main/res/layout/fragment_carrito.xml" value="0.1796875" />
-        <entry key="..\:/Users/Serafin/AndroidStudioProjects/AS/app/src/main/res/layout/fragment_comprar.xml" value="0.1796875" />
+        <entry key="..\:/Users/Serafin/AndroidStudioProjects/AS/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.362" />
+        <entry key="..\:/Users/Serafin/AndroidStudioProjects/AS/app/src/main/res/drawable/ic_launcher_background.xml" value="0.362" />
+        <entry key="..\:/Users/Serafin/AndroidStudioProjects/AS/app/src/main/res/drawable/stylo_borde_editext.xml" value="0.4466666666666667" />
+        <entry key="..\:/Users/Serafin/AndroidStudioProjects/AS/app/src/main/res/layout/activity_main.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/Serafin/AndroidStudioProjects/AS/app/src/main/res/layout/fragment_carrito.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/Serafin/AndroidStudioProjects/AS/app/src/main/res/layout/fragment_comprar.xml" value="0.3333333333333333" />
         <entry key="..\:/Users/Serafin/AndroidStudioProjects/AS/app/src/main/res/layout/fragment_contacto.xml" value="0.5" />
         <entry key="..\:/Users/Serafin/AndroidStudioProjects/AS/app/src/main/res/layout/fragment_especificacion.xml" value="0.1796875" />
-        <entry key="..\:/Users/Serafin/AndroidStudioProjects/AS/app/src/main/res/layout/fragment_iniciarsesion.xml" value="0.1796875" />
+        <entry key="..\:/Users/Serafin/AndroidStudioProjects/AS/app/src/main/res/layout/fragment_iniciarsesion.xml" value="0.4466666666666667" />
         <entry key="..\:/Users/Serafin/AndroidStudioProjects/AS/app/src/main/res/layout/fragment_inicio.xml" value="0.1796875" />
-        <entry key="..\:/Users/Serafin/AndroidStudioProjects/AS/app/src/main/res/layout/fragment_pagar.xml" value="0.1796875" />
+        <entry key="..\:/Users/Serafin/AndroidStudioProjects/AS/app/src/main/res/layout/fragment_pagar.xml" value="0.4466666666666667" />
         <entry key="..\:/Users/Serafin/AndroidStudioProjects/AS/app/src/main/res/layout/fragment_registrarse.xml" value="0.4466666666666667" />
         <entry key="..\:/Users/Serafin/AndroidStudioProjects/AS/app/src/main/res/layout/nav_hradeer.xml" value="0.1796875" />
         <entry key="..\:/Users/Serafin/AndroidStudioProjects/AS/app/src/main/res/layout/toolbar.xml" value="0.3671875" />
