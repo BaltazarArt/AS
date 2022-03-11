@@ -1,6 +1,262 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".pagarFragment"/>
+    tools:context=".pagarFragment">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="123dp"
+        android:layout_y="13dp"
+        android:text="Detalles del pedido"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="12dp"
+        android:layout_y="50dp"
+        android:text="Nombre"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="113dp"
+        android:layout_y="49dp"
+        android:text="Apellido"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="94dp"
+        android:layout_height="wrap_content"
+        android:layout_x="10dp"
+        android:layout_y="79dp"
+        android:background="@android:drawable/editbox_background_normal"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="121dp"
+        android:layout_height="wrap_content"
+        android:layout_x="113dp"
+        android:layout_y="77dp"
+        android:background="@android:drawable/editbox_background_normal"
+        android:textSize="12sp" />
+
+    <ListView
+        android:layout_width="147dp"
+        android:layout_height="387dp"
+        android:layout_x="247dp"
+        android:layout_y="69dp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="16dp"
+        android:layout_y="118dp"
+        android:text="Pais"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="208dp"
+        android:layout_height="wrap_content"
+        android:layout_x="15dp"
+        android:layout_y="143dp"
+        android:background="@android:drawable/editbox_background_normal"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="17dp"
+        android:layout_y="182dp"
+        android:text="Direccion"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="205dp"
+        android:layout_height="wrap_content"
+        android:layout_x="17dp"
+        android:layout_y="206dp"
+        android:background="@android:drawable/editbox_background_normal"
+        android:hint="Calle"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="201dp"
+        android:layout_height="wrap_content"
+        android:layout_x="18dp"
+        android:layout_y="242dp"
+        android:background="@android:drawable/editbox_background_normal"
+        android:hint="Referencias"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="20dp"
+        android:layout_y="281dp"
+        android:text="Ciudad"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="203dp"
+        android:layout_height="wrap_content"
+        android:layout_x="19dp"
+        android:layout_y="306dp"
+        android:background="@android:drawable/editbox_background_normal"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="18dp"
+        android:layout_y="344dp"
+        android:text="Estado"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="199dp"
+        android:layout_height="wrap_content"
+        android:layout_x="18dp"
+        android:layout_y="371dp"
+        android:background="@android:drawable/editbox_background_normal"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="18dp"
+        android:layout_y="409dp"
+        android:text="Codigo Postal"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="196dp"
+        android:layout_height="wrap_content"
+        android:layout_x="18dp"
+        android:layout_y="437dp"
+        android:background="@android:drawable/editbox_background_normal"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="18dp"
+        android:layout_y="476dp"
+        android:text="Telefono"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="109dp"
+        android:layout_height="wrap_content"
+        android:layout_x="18dp"
+        android:layout_y="499dp"
+        android:background="@android:drawable/editbox_background_normal"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="208dp"
+        android:layout_y="474dp"
+        android:text="Correo"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_x="210dp"
+        android:layout_y="497dp"
+        android:background="@android:drawable/editbox_background_normal"
+        android:textSize="12sp" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="234dp"
+        android:layout_height="wrap_content"
+        android:layout_x="16dp"
+        android:layout_y="528dp"
+        android:text="¿Deseas Crear una Cuenta?"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="260dp"
+        android:layout_height="26dp"
+        android:layout_x="17dp"
+        android:layout_y="571dp"
+        android:text="Si ya eres cliente ingresa a tu cuneta"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="124dp"
+        android:layout_height="37dp"
+        android:layout_x="281dp"
+        android:layout_y="563dp"
+        android:text="Acceder aqui"
+        android:textSize="8sp" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="261dp"
+        android:layout_height="wrap_content"
+        android:layout_x="18dp"
+        android:layout_y="607dp"
+        android:text="¿Deseas enviar una direccion diferente?"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="19dp"
+        android:layout_y="652dp"
+        android:text="Notas de la Orden"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="312dp"
+        android:layout_height="wrap_content"
+        android:layout_x="19dp"
+        android:layout_y="680dp"
+        android:background="@android:drawable/editbox_background_normal"
+        android:hint="Ingresa alguna nota especial de tu pedido"
+        android:textSize="12sp" />
+
+</AbsoluteLayout>

@@ -4,30 +4,31 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_inicio"
-            android:title="Inicio"
-            android:icon="@drawable/ic_launcher_foreground"
-            android:checked="true"/>
+            android:checked="true"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Inicio" />
 
 
         <item
             android:id="@+id/nav_comprar"
             android:title="Comprar"
-            android:icon="@drawable/ic_launcher_foreground"/>
+            android:icon="@drawable/canasta"/>
+
         <item android:title="Mas">
             <menu>
                 <group android:checkableBehavior="single">
                     <item
                         android:id="@+id/nav_especific"
                         android:title="Especificaciones"
-                        android:icon="@drawable/ic_launcher_foreground"/>
+                        android:icon="@drawable/detalle"/>
                     <item
                         android:id="@+id/nav_carrito"
                         android:title="Carrito"
-                        android:icon="@drawable/ic_launcher_foreground"/>
+                        android:icon="@drawable/carrito"/>
                     <item
                         android:id="@+id/nav_pagar"
                         android:title="Pagar"
-                        android:icon="@drawable/ic_launcher_foreground"/>
+                        android:icon="@drawable/pagar"/>
 
                 </group>
             </menu>
@@ -38,11 +39,11 @@
                     <item
                         android:id="@+id/nav_iniciarsesion"
                         android:title="Iniciar sesón"
-                        android:icon="@drawable/ic_launcher_foreground"/>
+                        android:icon="@drawable/inisiarsesion"/>
                     <item
                         android:id="@+id/nav_registrar"
                         android:title="Registrarse"
-                        android:icon="@drawable/ic_launcher_foreground"/>
+                        android:icon="@drawable/registrarse"/>
 
                 </group>
             </menu>
@@ -51,7 +52,7 @@
         <item
             android:id="@+id/nav_contacto"
             android:title="Contacto"
-            android:icon="@drawable/ic_launcher_foreground"/>
+            android:icon="@drawable/contacto"/>
 
     </group>
 
