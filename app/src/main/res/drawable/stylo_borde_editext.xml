@@ -3,7 +3,7 @@
     android:shape="rectangle">
 
     <stroke
-        android:dashWidth="1sp"
+        android:width="1sp"
         android:color="@color/black"/>
 
     <padding
