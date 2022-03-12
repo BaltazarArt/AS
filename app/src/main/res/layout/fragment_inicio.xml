@@ -1,8 +1,332 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".inicioFragment"
 
-    />
+
+    tools:context=".inicioFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="1288dp"
+                android:layout_gravity="fill_vertical"
+
+                tools:context=".inicioFragment">
+
+
+                <EditText
+                    android:id="@+id/textView32"
+                    android:layout_width="278dp"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="44dp"
+                    android:hint="Buscar producto"
+                    android:text=""
+                    android:textSize="20dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.451"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <Button
+                    android:id="@+id/button6"
+                    android:layout_width="55dp"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="44dp"
+                    android:background="@drawable/buscar"
+                    android:backgroundTint="#170404"
+                    android:shadowColor="#B9FFFFFF"
+                    android:shadowRadius="@integer/material_motion_duration_short_1"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.611"
+                    app:layout_constraintStart_toEndOf="@+id/textView32"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="207dp"
+                    android:layout_height="57dp"
+                    android:layout_marginTop="16dp"
+                    android:gravity="center"
+                    android:text="Promociones"
+
+                    android:textColor="#9E8F2C"
+                    android:textSize="27dp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toTopOf="@+id/textView14"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView32"
+                    app:layout_constraintVertical_bias="0.0" />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="305dp"
+                    android:layout_height="96dp"
+                    android:gravity="center"
+                    android:text="-30% en computadoras escolares"
+                    android:textColor="#277BB3"
+                    android:textSize="27dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+
+                    app:layout_constraintHorizontal_bias="0.578"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.134" />
+
+                <Button
+                    android:id="@+id/imageView12"
+                    android:layout_width="309dp"
+                    android:layout_height="182dp"
+                    android:layout_marginTop="236dp"
+                    android:background="@drawable/promocion"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.588"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView36"
+                    android:layout_width="207dp"
+                    android:layout_height="57dp"
+                    android:layout_marginTop="396dp"
+                    android:gravity="center"
+                    android:text="Solo modelos participantes"
+                    android:textSize="10dp"
+
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.294"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <Button
+                    android:id="@+id/button8"
+                    android:layout_width="58dp"
+                    android:layout_height="53dp"
+                    android:layout_marginTop="396dp"
+                    android:background="@drawable/carrito"
+                    android:backgroundTint="@color/purple_200"
+                    android:backgroundTintMode="screen"
+                    android:hapticFeedbackEnabled="false"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.881"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="275dp"
+                    android:layout_height="69dp"
+                    android:gravity="center"
+                    android:text="Teléfonos celulares"
+                    android:textSize="27dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.463"
+
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.387" />
+
+                <Button
+                    android:id="@+id/textView15"
+                    android:layout_width="178dp"
+                    android:layout_height="244dp"
+                    android:layout_marginTop="88dp"
+                    android:background="@drawable/cell"
+                    android:gravity="center"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.497"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView36" />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="233dp"
+                    android:layout_height="82dp"
+                    android:layout_marginBottom="400dp"
+                    android:gravity="center"
+                    android:text="+ categorias"
+
+                    android:textSize="27dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <Button
+                    android:id="@+id/button7"
+                    android:layout_width="171dp"
+                    android:layout_height="48dp"
+                    android:layout_marginBottom="352dp"
+                    android:background="#ECBCFA"
+                    android:text="Laptops"
+                    app:cornerRadius="100sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.066"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <Button
+                    android:id="@+id/button9"
+                    android:layout_width="171dp"
+                    android:layout_height="48dp"
+                    android:layout_marginEnd="24dp"
+                    android:layout_marginBottom="352dp"
+
+                    android:background="#ECBCFA"
+                    android:text="Desktops"
+                    app:cornerRadius="100sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.62"
+                    app:layout_constraintStart_toEndOf="@+id/button7" />
+
+                <Button
+                    android:id="@+id/button7"
+                    android:layout_width="171dp"
+                    android:layout_height="48dp"
+                    android:layout_marginBottom="292dp"
+                    android:background="#ECBCFA"
+                    android:text="Monitores"
+                    app:cornerRadius="100sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.066"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <Button
+                    android:id="@+id/button9"
+                    android:layout_width="171dp"
+                    android:layout_height="48dp"
+                    android:layout_marginEnd="24dp"
+                    android:layout_marginBottom="292dp"
+                    android:background="#ECBCFA"
+                    android:text="Celulares"
+                    app:cornerRadius="100sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.62"
+                    app:layout_constraintStart_toEndOf="@+id/button7" />
+
+                <Button
+                    android:id="@+id/button7"
+                    android:layout_width="171dp"
+                    android:layout_height="48dp"
+                    android:layout_marginBottom="168dp"
+                    android:background="#ECBCFA"
+                    android:text="Impresoras"
+                    app:cornerRadius="100sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.066"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <Button
+                    android:id="@+id/button9"
+                    android:layout_width="171dp"
+                    android:layout_height="48dp"
+                    android:layout_marginEnd="24dp"
+                    android:layout_marginBottom="168dp"
+                    android:background="#ECBCFA"
+                    android:text="Videojuegos"
+                    app:cornerRadius="100sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.62"
+                    app:layout_constraintStart_toEndOf="@+id/button7" />
+
+                <Button
+                    android:id="@+id/button7"
+                    android:layout_width="171dp"
+                    android:layout_height="48dp"
+                    android:layout_marginBottom="48dp"
+                    android:background="#ECBCFA"
+                    android:text="Audio"
+                    app:cornerRadius="100sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.066"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <Button
+                    android:id="@+id/button9"
+                    android:layout_width="171dp"
+                    android:layout_height="48dp"
+                    android:layout_marginBottom="228dp"
+                    android:background="#ECBCFA"
+                    android:text="Accesorios"
+                    app:cornerRadius="100sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.854"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <Button
+                    android:id="@+id/button7"
+                    android:layout_width="171dp"
+                    android:layout_height="48dp"
+                    android:layout_marginBottom="108dp"
+                    android:background="#ECBCFA"
+                    android:text="Software"
+                    app:cornerRadius="100sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.066"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <Button
+                    android:id="@+id/button9"
+                    android:layout_width="171dp"
+                    android:layout_height="48dp"
+                    android:layout_marginBottom="108dp"
+                    android:background="#ECBCFA"
+                    android:text="Pantallas"
+                    app:cornerRadius="100sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.854"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <Button
+                    android:id="@+id/button9"
+                    android:layout_width="171dp"
+                    android:layout_height="48dp"
+                    android:layout_marginBottom="228dp"
+                    android:background="#ECBCFA"
+                    android:text="Componentes"
+                    app:cornerRadius="100sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.066"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
