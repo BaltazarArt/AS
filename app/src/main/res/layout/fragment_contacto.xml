@@ -92,7 +92,7 @@
             android:id="@+id/button4"
             android:layout_width="226dp"
             android:layout_height="38dp"
-            android:background="@color/purple_200"
+            android:background="@drawable/custom_code"
             android:backgroundTint="@null"
             android:text="Enviar comentarios"
             android:textColor="#000000"
