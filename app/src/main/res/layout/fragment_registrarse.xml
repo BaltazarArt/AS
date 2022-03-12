@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    app:circularflow_defaultRadius="20dp"
     tools:context=".registrarseFragment">
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:context=".Registrarse">
+        android:layout_width="391dp"
+        android:layout_height="687dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.483">
 
         <EditText
             android:id="@+id/editTextTextPassword3"
@@ -71,15 +77,14 @@
             android:layout_width="290dp"
             android:layout_height="0dp"
             android:layout_marginBottom="36dp"
+            android:background="@drawable/custom_code"
+            android:backgroundTint="@null"
             android:gravity="center|center_vertical"
             android:text="registrarse"
             android:textColor="#000000"
             android:textSize="16sp"
-            app:backgroundTint="#00BCD4"
-            app:cornerRadius="22dp"
             app:layout_constraintBottom_toTopOf="@+id/textView10"
             app:layout_constraintEnd_toStartOf="@+id/button12"
-            app:layout_constraintHorizontal_bias="0.51"
             app:layout_constraintStart_toStartOf="@+id/button12"
             app:layout_constraintTop_toBottomOf="@+id/checkBox"
             tools:ignore="TouchTargetSizeCheck" />
@@ -170,4 +175,4 @@
             app:layout_constraintTop_toBottomOf="@+id/textView14" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
-</FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
