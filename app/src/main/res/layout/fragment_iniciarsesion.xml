@@ -9,7 +9,12 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="839dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
             android:id="@+id/imageView"
@@ -28,11 +33,12 @@
         <Button
             android:id="@+id/button2"
             android:layout_width="250dp"
-            android:layout_height="50dp"
+            android:layout_height="45dp"
             android:layout_marginStart="80dp"
             android:layout_marginEnd="81dp"
             android:layout_marginBottom="30dp"
-            android:background="@color/purple_200"
+            android:background="@drawable/custom_code"
+            android:backgroundTint="@null"
             android:text="registrarse"
             android:textColor="#000000"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -42,7 +48,7 @@
         <EditText
             android:id="@+id/editTextTextPassword"
             android:layout_width="250dp"
-            android:layout_height="50dp"
+            android:layout_height="40dp"
             android:layout_marginStart="80dp"
             android:layout_marginEnd="81dp"
             android:layout_marginBottom="17dp"
@@ -56,11 +62,12 @@
         <Button
             android:id="@+id/button"
             android:layout_width="250dp"
-            android:layout_height="50dp"
+            android:layout_height="45dp"
             android:layout_marginStart="80dp"
             android:layout_marginEnd="81dp"
             android:layout_marginBottom="13dp"
-            android:background="@color/purple_200"
+            android:background="@drawable/custom_code"
+            android:backgroundTint="@null"
             android:text="acceder"
             android:textColor="#000000"
             app:layout_constraintBottom_toTopOf="@+id/textView2"
@@ -85,7 +92,7 @@
             android:id="@+id/imageButton"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:layout_marginEnd="92dp"
+            android:layout_marginEnd="96dp"
             android:layout_marginBottom="12dp"
             android:background="@drawable/google"
             android:scaleType="fitCenter"
@@ -95,7 +102,7 @@
         <EditText
             android:id="@+id/editTextTextPersonName2"
             android:layout_width="250dp"
-            android:layout_height="50dp"
+            android:layout_height="40dp"
             android:layout_marginStart="80dp"
             android:layout_marginEnd="81dp"
             android:layout_marginBottom="24dp"
@@ -123,7 +130,7 @@
             android:id="@+id/imageButton2"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:layout_marginEnd="39dp"
+            android:layout_marginEnd="16dp"
             android:layout_marginBottom="12dp"
             android:background="@drawable/facebook"
             android:scaleType="fitCenter"
