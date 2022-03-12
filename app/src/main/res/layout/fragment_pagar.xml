@@ -56,8 +56,8 @@
     <ListView
         android:layout_width="147dp"
         android:layout_height="387dp"
-        android:layout_x="247dp"
-        android:layout_y="69dp" />
+        android:layout_x="261dp"
+        android:layout_y="199dp" />
 
     <TextView
         android:id="@+id/textView18"
